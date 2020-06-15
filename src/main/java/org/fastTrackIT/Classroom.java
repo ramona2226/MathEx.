@@ -1,24 +1,49 @@
 package org.fastTrackIT;
 
+import java.util.Scanner;
+
 public class Classroom {
 
 
     String name;
     int age;
-    int boys;
-    int girls;
 
 
-public void sunOfTwo(int boys, int girls) {
+   public int  sum(int firstNumber, int secondNumber) {
 
-   // int boys = 10;
+        int sum = firstNumber + secondNumber;
+
+
+System.out.println("Sum of two is: " + sum);
+
+       return sum;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // int boys = 10;
 
    // System.out.println("Total children is:" );
 
 
 
 
-    System.out.println("Enter boys number");
+   // System.out.println("Enter boys number");
   //  boysNumber = input.nextInt();
 
 
@@ -28,6 +53,4 @@ public void sunOfTwo(int boys, int girls) {
 
 
 
-    }
-
-}
+//
