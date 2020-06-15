@@ -10,15 +10,30 @@ public class App
         Classroom classroom = new Classroom () ;
 
         classroom.name = "ButterflysClass";
-                classroom.age = 3;
-        classroom.boys = 10;
-        classroom.girls = 6;
+        classroom.age = 3;
+
 
         System.out.println(classroom.name);
         System.out.println(classroom.age);
-        System.out.println(classroom.boys);
-        System.out.println(classroom.girls);
-    }
+
+        Scanner input = new Scanner(System.in);
+        int boys = 10;
+        int girls = 6;
+
+        int sum;
+        sum = boys + girls;
+
+        System.out.println("Total children :" + sum);
+
+//        Scanner intput =  new Scanner(System.in);
+//        int firstNumber;
+//        int secondNumber;
+//
+//        int sum;
+//
+//
+//        System.out.println(firstNumber + secondNumber);
+//
 
        //  Scanner input = new Scanner(System.in);
 //         int firstNumber = 5;
@@ -39,5 +54,5 @@ public class App
 //
 //        System.out.println("Sum of the two number is:" + sum);
 //
-//    }
+   }
 }
